@@ -127,3 +127,7 @@ input[type="submit"] {
   margin-bottom: 0.5rem;
   width: 100%;
 }
+
+footer {
+  padding-left: 20px;
+}
