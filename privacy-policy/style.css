@@ -13,6 +13,11 @@ header {
   justify-content: space-between;
 }
 
+header img {
+  height: 40px;
+  margin-right: 1rem;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
