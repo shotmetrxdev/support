@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  height: 40px;
+  height: 20px;
   margin-right: 1rem;
 }
 
@@ -90,6 +90,7 @@ textarea {
 	margin-bottom: 1rem;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -99,4 +100,30 @@ input[type="submit"] {
 	border-radius: 4px;
 	padding: 0.5rem;
 	cursor: pointer;
+    width: 150px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#contact form label {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  width: 100%;
 }
